@@ -1,16 +1,16 @@
 /*ocean*/
 Map { 
-	map-bgcolor: #eee; } 
+	map-bgcolor: #073642; } 
 
 /*lakes*/
 #water-bodies { 
-	polygon-fill: #eee; }
+	polygon-fill: #073642; }
 
 /*land, map background*/
 #land { 
-	polygon-fill: #666; }
+	polygon-fill: #fdf6e3; }
 
-#buildings[zoom>=13] { polygon-fill: #333; }
+#buildings[zoom>=13] { polygon-fill: #eee8d5; }
 
 /*//////// Base line styles */
 
@@ -25,100 +25,34 @@ Map {
     line-cap: butt;
 }
 
-.roads[zoom>=13][is_tunnel=yes][render=outline],
-.roads[zoom>=13][is_tunnel=yes][render=casing]
-{
-    line-opacity: 0.2;
-}
-
-.roads[zoom>=15][is_tunnel=yes][render=inline]
-{
-    line-opacity: 0.0;
-}
-
 
 /*//////// Colors */
 
 .roads[kind=highway][render=inline]
 {
-	line-color: #fc0;
-}
-
-.roads[kind=highway][render=outline],
-.roads[kind=highway][render=casing]
-{
-	line-color: #000;
-}
-
-.roads[zoom<=13][kind=highway][is_link=yes][render=inline]
-{
-	line-color: #fc0;
-}
-
-.roads[zoom<=13][kind=highway][is_link=yes][render=outline],
-.roads[zoom<=13][kind=highway][is_link=yes][render=casing]
-{
-	line-color: #000;
+	line-color: #d33682;
 }
 
 .roads[kind=major_road][render=inline]
 {
-	line-color: #fff;
-}
-
-.roads[kind=major_road][zoom<=12][render=inline]
-{
-	line-color: #ccc !important;
-}
-
-.roads[kind=major_road][render=outline],
-.roads[kind=major_road][render=casing]
-{
-	line-color: #000;
-}
-
-.roads[zoom<=13][kind=major_road][is_link=yes][render=inline]
-{
-	line-color: #fff;
-}
-
-.roads[zoom<=13][kind=major_road][is_link=yes][render=outline],
-.roads[zoom<=13][kind=major_road][is_link=yes][render=casing]
-{
-	line-color: #000;
+	line-color: #657b83;
 }
 
 .roads[kind=minor_road][render=inline]
 {
-	line-color: #fff;
-}
-
-.roads[kind=minor_road][zoom<=12][render=inline]
-{
-	line-color: #999 !important;
-}
-
-.roads[kind=minor_road][zoom>=13][render=inline]
-{
-	line-color: #ccc !important;
-}
-
-.roads[kind=minor_road][render=outline],
-.roads[kind=minor_road][render=casing]
-{
-	line-color: #000;
+	line-color: #93a1a1;
 }
 
 .roads[kind=rail][render=inline],
 .roads[kind=rail][render=casing],
 .roads[kind=rail][render=outline]
 {
-	line-color: #444;
+	line-color: #93a1a1;
 }
 
 .roads[kind=path][render=inline]
 {
-	line-color: #fff;
+	line-color: #93a1a1;
 	line-dasharray: 2,5;
 }
 
@@ -170,11 +104,6 @@ Map {
 
 #z12-roads[zoom=12][kind=minor_road][render=inline]
 { 	
-	line-width: 1.5;
-}
-
-#z12-roads[zoom=12][is_link=yes][render=inline]
-{ 	
 	line-width: 1;
 }
 
@@ -183,11 +112,6 @@ Map {
 #z13-roads[zoom=13][kind=highway][is_link=no][render=inline]
 { 
 	line-width: 4;
-}
-
-#z13-roads[zoom=13][kind=highway][is_link=yes][render=inline]
-{ 
-	line-width: 1;	
 }
 
 #z13-roads[zoom=13][kind=highway][is_link=yes][render=inline]
@@ -248,7 +172,7 @@ Map {
 
 #z15plus-roads[zoom=15][kind=highway][render=inline]
 {
-	line-width: 6;
+	line-width: 7;
 }
 
 #z15plus-roads[zoom=15][kind=highway][is_link=yes][render=inline]
@@ -299,10 +223,10 @@ Map {
 
 #z15plus-roads[zoom=16][kind=highway][render=inline]
 {
-	line-width: 7.5;
+	line-width: 9;
 }
 
-#z15plus-roads[zoom=16][is_link=yes][render=inline]
+#z15plus-roads[zoom=16][kind=highway][is_link=yes][render=inline]
 {
 	line-width: 4;
 }
@@ -350,7 +274,7 @@ Map {
 
 #z15plus-roads[zoom=17][kind=highway][render=inline]
 {
-	line-width: 15;
+	line-width: 16;
 }
 
 #z15plus-roads[zoom=17][kind=highway][is_link=yes][render=inline]
