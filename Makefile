@@ -173,7 +173,7 @@ renders/moscow-18.png: style.xml
 
 
 
-style.xml: style.mml stylesheet.mss
+style.xml: style.mml stylesheet.mss labels.mss
 	cascadenik-compile.py style.mml style.xml
 
 clean:
