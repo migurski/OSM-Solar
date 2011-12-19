@@ -1541,139 +1541,861 @@
       </PolygonSymbolizer>
     </Rule>
   </Style>
-  <Style name="text style 88 (name)">
-    <Rule name="rule 145">
-      <Filter>([highway]='motorway')</Filter>
-      <MaxScaleDenominator>4999</MaxScaleDenominator>
-      <TextSymbolizer face-name="DejaVu Sans Condensed Bold" fill="rgb(253,246,227)" halo-fill="rgb(211,54,130)" halo-radius="2" max-char-angle-delta="30" placement="line" size="14" spacing="384">name</TextSymbolizer>
-    </Rule>
-    <Rule name="rule 146">
-      <Filter>([highway]='primary')</Filter>
-      <MaxScaleDenominator>4999</MaxScaleDenominator>
-      <TextSymbolizer face-name="DejaVu Sans Condensed Bold" fill="rgb(253,246,227)" halo-fill="rgb(101,123,131)" halo-radius="2" max-char-angle-delta="30" placement="line" size="14" spacing="384">name</TextSymbolizer>
-    </Rule>
-    <Rule name="rule 147">
-      <Filter>([highway]='secondary')</Filter>
-      <MaxScaleDenominator>4999</MaxScaleDenominator>
-      <TextSymbolizer face-name="DejaVu Sans Condensed Bold" fill="rgb(253,246,227)" halo-fill="rgb(101,123,131)" halo-radius="2" max-char-angle-delta="30" placement="line" size="14" spacing="384">name</TextSymbolizer>
-    </Rule>
-    <Rule name="rule 148">
-      <Filter>([highway]='trunk')</Filter>
-      <MaxScaleDenominator>4999</MaxScaleDenominator>
-      <TextSymbolizer face-name="DejaVu Sans Condensed Bold" fill="rgb(253,246,227)" halo-fill="rgb(101,123,131)" halo-radius="2" max-char-angle-delta="30" placement="line" size="14" spacing="384">name</TextSymbolizer>
-    </Rule>
-    <Rule name="rule 149">
-      <Filter>([highway]='motorway')</Filter>
-      <MinScaleDenominator>5000</MinScaleDenominator>
-      <MaxScaleDenominator>12499</MaxScaleDenominator>
-      <TextSymbolizer face-name="DejaVu Sans Condensed" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" max-char-angle-delta="30" placement="line" size="14" spacing="384">name</TextSymbolizer>
-    </Rule>
-    <Rule name="rule 150">
-      <Filter>([highway]='primary')</Filter>
-      <MinScaleDenominator>5000</MinScaleDenominator>
-      <MaxScaleDenominator>12499</MaxScaleDenominator>
-      <TextSymbolizer face-name="DejaVu Sans Condensed" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" max-char-angle-delta="30" placement="line" size="14" spacing="384">name</TextSymbolizer>
-    </Rule>
-    <Rule name="rule 151">
-      <Filter>([highway]='secondary')</Filter>
-      <MinScaleDenominator>5000</MinScaleDenominator>
-      <MaxScaleDenominator>12499</MaxScaleDenominator>
-      <TextSymbolizer face-name="DejaVu Sans Condensed" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" max-char-angle-delta="30" placement="line" size="14" spacing="384">name</TextSymbolizer>
-    </Rule>
-    <Rule name="rule 152">
-      <Filter>([highway]='trunk')</Filter>
-      <MinScaleDenominator>5000</MinScaleDenominator>
-      <MaxScaleDenominator>12499</MaxScaleDenominator>
-      <TextSymbolizer face-name="DejaVu Sans Condensed" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" max-char-angle-delta="30" placement="line" size="14" spacing="384">name</TextSymbolizer>
-    </Rule>
-    <Rule name="rule 153">
-      <Filter>([highway]='primary')</Filter>
-      <MinScaleDenominator>12500</MinScaleDenominator>
-      <MaxScaleDenominator>49999</MaxScaleDenominator>
-      <TextSymbolizer face-name="DejaVu Sans Condensed" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" max-char-angle-delta="30" placement="line" size="14" spacing="384">name</TextSymbolizer>
-    </Rule>
-    <Rule name="rule 154">
-      <Filter>([highway]='secondary')</Filter>
-      <MinScaleDenominator>12500</MinScaleDenominator>
-      <MaxScaleDenominator>49999</MaxScaleDenominator>
-      <TextSymbolizer face-name="DejaVu Sans Condensed" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" max-char-angle-delta="30" placement="line" size="14" spacing="384">name</TextSymbolizer>
-    </Rule>
-    <Rule name="rule 155">
-      <Filter>([highway]='trunk')</Filter>
-      <MinScaleDenominator>12500</MinScaleDenominator>
-      <MaxScaleDenominator>49999</MaxScaleDenominator>
-      <TextSymbolizer face-name="DejaVu Sans Condensed" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" max-char-angle-delta="30" placement="line" size="14" spacing="384">name</TextSymbolizer>
-    </Rule>
-    <Rule name="rule 156">
-      <Filter>([highway]='primary')</Filter>
-      <MinScaleDenominator>50000</MinScaleDenominator>
-      <MaxScaleDenominator>99999</MaxScaleDenominator>
-      <TextSymbolizer face-name="DejaVu Sans Condensed" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" max-char-angle-delta="30" placement="line" size="12" spacing="384">name</TextSymbolizer>
-    </Rule>
-    <Rule name="rule 157">
-      <Filter>([highway]='secondary')</Filter>
-      <MinScaleDenominator>50000</MinScaleDenominator>
-      <MaxScaleDenominator>99999</MaxScaleDenominator>
-      <TextSymbolizer face-name="DejaVu Sans Condensed" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" max-char-angle-delta="30" placement="line" size="12" spacing="384">name</TextSymbolizer>
-    </Rule>
-    <Rule name="rule 158">
-      <Filter>([highway]='trunk')</Filter>
-      <MinScaleDenominator>50000</MinScaleDenominator>
-      <MaxScaleDenominator>99999</MaxScaleDenominator>
-      <TextSymbolizer face-name="DejaVu Sans Condensed" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" max-char-angle-delta="30" placement="line" size="12" spacing="384">name</TextSymbolizer>
-    </Rule>
-    <Rule name="rule 159">
-      <Filter>([highway]='primary')</Filter>
-      <MinScaleDenominator>100000</MinScaleDenominator>
-      <MaxScaleDenominator>199999</MaxScaleDenominator>
-      <TextSymbolizer face-name="DejaVu Sans Condensed" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" max-char-angle-delta="30" placement="line" size="12" spacing="384">name</TextSymbolizer>
-    </Rule>
-    <Rule name="rule 160">
-      <Filter>([highway]='trunk')</Filter>
-      <MinScaleDenominator>100000</MinScaleDenominator>
-      <MaxScaleDenominator>199999</MaxScaleDenominator>
-      <TextSymbolizer face-name="DejaVu Sans Condensed" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" max-char-angle-delta="30" placement="line" size="12" spacing="384">name</TextSymbolizer>
-    </Rule>
-  </Style>
-  <Style name="text style 97 (name)">
-    <Rule name="rule 161">
+  <Style name="text style 106 (name)">
+    <Rule name="rule 282">
       <Filter>not (([highway]='tertiary'))</Filter>
       <MaxScaleDenominator>2499</MaxScaleDenominator>
       <TextSymbolizer face-name="DejaVu Sans Condensed Bold" fill="rgb(253,246,227)" halo-fill="rgb(147,161,161)" halo-radius="2" max-char-angle-delta="30" placement="line" size="14" spacing="384">name</TextSymbolizer>
     </Rule>
-    <Rule name="rule 162">
+    <Rule name="rule 283">
       <Filter>([highway]='tertiary')</Filter>
       <MaxScaleDenominator>2499</MaxScaleDenominator>
       <TextSymbolizer face-name="DejaVu Sans Condensed Bold" fill="rgb(253,246,227)" halo-fill="rgb(101,123,131)" halo-radius="2" max-char-angle-delta="30" placement="line" size="14" spacing="384">name</TextSymbolizer>
     </Rule>
-    <Rule name="rule 163">
+    <Rule name="rule 284">
       <Filter>not (([highway]='tertiary'))</Filter>
       <MinScaleDenominator>2500</MinScaleDenominator>
       <MaxScaleDenominator>4999</MaxScaleDenominator>
       <TextSymbolizer face-name="DejaVu Sans Condensed" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" max-char-angle-delta="30" placement="line" size="14" spacing="384">name</TextSymbolizer>
     </Rule>
-    <Rule name="rule 164">
+    <Rule name="rule 285">
       <Filter>([highway]='tertiary')</Filter>
       <MinScaleDenominator>2500</MinScaleDenominator>
       <MaxScaleDenominator>4999</MaxScaleDenominator>
       <TextSymbolizer face-name="DejaVu Sans Condensed Bold" fill="rgb(253,246,227)" halo-fill="rgb(101,123,131)" halo-radius="2" max-char-angle-delta="30" placement="line" size="14" spacing="384">name</TextSymbolizer>
     </Rule>
-    <Rule name="rule 165">
+    <Rule name="rule 286">
       <Filter>not (([highway]='tertiary'))</Filter>
       <MinScaleDenominator>5000</MinScaleDenominator>
       <MaxScaleDenominator>12499</MaxScaleDenominator>
       <TextSymbolizer face-name="DejaVu Sans Condensed" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" max-char-angle-delta="30" placement="line" size="14" spacing="384">name</TextSymbolizer>
     </Rule>
-    <Rule name="rule 166">
+    <Rule name="rule 287">
       <Filter>([highway]='tertiary')</Filter>
       <MinScaleDenominator>5000</MinScaleDenominator>
       <MaxScaleDenominator>12499</MaxScaleDenominator>
       <TextSymbolizer face-name="DejaVu Sans Condensed" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" max-char-angle-delta="30" placement="line" size="14" spacing="384">name</TextSymbolizer>
     </Rule>
-    <Rule name="rule 167">
+    <Rule name="rule 288">
       <Filter>([highway]='tertiary')</Filter>
       <MinScaleDenominator>12500</MinScaleDenominator>
       <MaxScaleDenominator>24999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" max-char-angle-delta="30" placement="line" size="12" spacing="384">name</TextSymbolizer>
+    </Rule>
+  </Style>
+  <Style name="text style 88 (name)">
+    <Rule name="rule 145">
+      <Filter>(((not (([place]='city')) and not (([place]='town'))) and ([population]&gt;0)) and ([population]&lt;1000))</Filter>
+      <MinScaleDenominator>5000</MinScaleDenominator>
+      <MaxScaleDenominator>24999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed Bold" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="14">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 146">
+      <Filter>(((not (([place]='city')) and not (([place]='town'))) and ([population]&gt;=1000)) and ([population]&lt;5000))</Filter>
+      <MinScaleDenominator>5000</MinScaleDenominator>
+      <MaxScaleDenominator>24999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed Bold" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="14">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 147">
+      <Filter>(((not (([place]='city')) and not (([place]='town'))) and ([population]&gt;=5000)) and ([population]&lt;15000))</Filter>
+      <MinScaleDenominator>5000</MinScaleDenominator>
+      <MaxScaleDenominator>24999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed Bold" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="14">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 148">
+      <Filter>(((not (([place]='city')) and not (([place]='town'))) and ([population]&gt;=15000)) and ([population]&lt;35000))</Filter>
+      <MinScaleDenominator>5000</MinScaleDenominator>
+      <MaxScaleDenominator>24999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed Bold" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="14">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 149">
+      <Filter>(((not (([place]='city')) and not (([place]='town'))) and ([population]&gt;=35000)) and ([population]&lt;50000))</Filter>
+      <MinScaleDenominator>5000</MinScaleDenominator>
+      <MaxScaleDenominator>24999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed Bold" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="19">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 150">
+      <Filter>(((not (([place]='city')) and not (([place]='town'))) and ([population]&gt;=50000)) and ([population]&lt;100000))</Filter>
+      <MinScaleDenominator>5000</MinScaleDenominator>
+      <MaxScaleDenominator>24999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed Bold" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="19">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 151">
+      <Filter>((not (([place]='city')) and not (([place]='town'))) and ([population]&lt;=0))</Filter>
+      <MinScaleDenominator>5000</MinScaleDenominator>
+      <MaxScaleDenominator>24999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed Bold" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="14">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 152">
+      <Filter>((not (([place]='city')) and not (([place]='town'))) and ([population]&gt;=100000))</Filter>
+      <MinScaleDenominator>5000</MinScaleDenominator>
+      <MaxScaleDenominator>24999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed Bold" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="22">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 153">
+      <Filter>((([place]='city') and ([population]&gt;0)) and ([population]&lt;1000))</Filter>
+      <MinScaleDenominator>5000</MinScaleDenominator>
+      <MaxScaleDenominator>24999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed Bold" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="14">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 154">
+      <Filter>((([place]='city') and ([population]&gt;=1000)) and ([population]&lt;5000))</Filter>
+      <MinScaleDenominator>5000</MinScaleDenominator>
+      <MaxScaleDenominator>24999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed Bold" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="14">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 155">
+      <Filter>((([place]='city') and ([population]&gt;=5000)) and ([population]&lt;15000))</Filter>
+      <MinScaleDenominator>5000</MinScaleDenominator>
+      <MaxScaleDenominator>24999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed Bold" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="14">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 156">
+      <Filter>((([place]='city') and ([population]&gt;=15000)) and ([population]&lt;35000))</Filter>
+      <MinScaleDenominator>5000</MinScaleDenominator>
+      <MaxScaleDenominator>24999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed Bold" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="14">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 157">
+      <Filter>((([place]='city') and ([population]&gt;=35000)) and ([population]&lt;50000))</Filter>
+      <MinScaleDenominator>5000</MinScaleDenominator>
+      <MaxScaleDenominator>24999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed Bold" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="19">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 158">
+      <Filter>((([place]='city') and ([population]&gt;=50000)) and ([population]&lt;100000))</Filter>
+      <MinScaleDenominator>5000</MinScaleDenominator>
+      <MaxScaleDenominator>24999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed Bold" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="19">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 159">
+      <Filter>(([place]='city') and ([population]&lt;=0))</Filter>
+      <MinScaleDenominator>5000</MinScaleDenominator>
+      <MaxScaleDenominator>24999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed Bold" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="14">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 160">
+      <Filter>(([place]='city') and ([population]&gt;=100000))</Filter>
+      <MinScaleDenominator>5000</MinScaleDenominator>
+      <MaxScaleDenominator>24999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed Bold" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="22">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 161">
+      <Filter>((([place]='town') and ([population]&gt;0)) and ([population]&lt;1000))</Filter>
+      <MinScaleDenominator>5000</MinScaleDenominator>
+      <MaxScaleDenominator>24999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed Bold" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="14">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 162">
+      <Filter>((([place]='town') and ([population]&gt;=1000)) and ([population]&lt;5000))</Filter>
+      <MinScaleDenominator>5000</MinScaleDenominator>
+      <MaxScaleDenominator>24999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed Bold" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="14">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 163">
+      <Filter>((([place]='town') and ([population]&gt;=5000)) and ([population]&lt;15000))</Filter>
+      <MinScaleDenominator>5000</MinScaleDenominator>
+      <MaxScaleDenominator>24999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed Bold" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="14">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 164">
+      <Filter>((([place]='town') and ([population]&gt;=15000)) and ([population]&lt;35000))</Filter>
+      <MinScaleDenominator>5000</MinScaleDenominator>
+      <MaxScaleDenominator>24999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed Bold" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="14">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 165">
+      <Filter>((([place]='town') and ([population]&gt;=35000)) and ([population]&lt;50000))</Filter>
+      <MinScaleDenominator>5000</MinScaleDenominator>
+      <MaxScaleDenominator>24999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed Bold" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="19">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 166">
+      <Filter>((([place]='town') and ([population]&gt;=50000)) and ([population]&lt;100000))</Filter>
+      <MinScaleDenominator>5000</MinScaleDenominator>
+      <MaxScaleDenominator>24999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed Bold" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="19">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 167">
+      <Filter>(([place]='town') and ([population]&lt;=0))</Filter>
+      <MinScaleDenominator>5000</MinScaleDenominator>
+      <MaxScaleDenominator>24999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed Bold" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="14">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 168">
+      <Filter>(([place]='town') and ([population]&gt;=100000))</Filter>
+      <MinScaleDenominator>5000</MinScaleDenominator>
+      <MaxScaleDenominator>24999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed Bold" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="22">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 169">
+      <Filter>(((not (([place]='city')) and not (([place]='town'))) and ([population]&gt;0)) and ([population]&lt;1000))</Filter>
+      <MinScaleDenominator>25000</MinScaleDenominator>
+      <MaxScaleDenominator>99999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed Bold" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="14">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 170">
+      <Filter>(((not (([place]='city')) and not (([place]='town'))) and ([population]&gt;=1000)) and ([population]&lt;5000))</Filter>
+      <MinScaleDenominator>25000</MinScaleDenominator>
+      <MaxScaleDenominator>99999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed Bold" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="14">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 171">
+      <Filter>(((not (([place]='city')) and not (([place]='town'))) and ([population]&gt;=5000)) and ([population]&lt;15000))</Filter>
+      <MinScaleDenominator>25000</MinScaleDenominator>
+      <MaxScaleDenominator>99999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed Bold" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="14">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 172">
+      <Filter>(((not (([place]='city')) and not (([place]='town'))) and ([population]&gt;=15000)) and ([population]&lt;35000))</Filter>
+      <MinScaleDenominator>25000</MinScaleDenominator>
+      <MaxScaleDenominator>99999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed Bold" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="14">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 173">
+      <Filter>(((not (([place]='city')) and not (([place]='town'))) and ([population]&gt;=35000)) and ([population]&lt;50000))</Filter>
+      <MinScaleDenominator>25000</MinScaleDenominator>
+      <MaxScaleDenominator>99999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed Bold" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="19">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 174">
+      <Filter>(((not (([place]='city')) and not (([place]='town'))) and ([population]&gt;=50000)) and ([population]&lt;100000))</Filter>
+      <MinScaleDenominator>25000</MinScaleDenominator>
+      <MaxScaleDenominator>99999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed Bold" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="19">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 175">
+      <Filter>((not (([place]='city')) and not (([place]='town'))) and ([population]&gt;=100000))</Filter>
+      <MinScaleDenominator>25000</MinScaleDenominator>
+      <MaxScaleDenominator>99999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed Bold" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="22">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 176">
+      <Filter>((([place]='city') and ([population]&gt;0)) and ([population]&lt;1000))</Filter>
+      <MinScaleDenominator>25000</MinScaleDenominator>
+      <MaxScaleDenominator>99999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed Bold" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="14">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 177">
+      <Filter>((([place]='city') and ([population]&gt;=1000)) and ([population]&lt;5000))</Filter>
+      <MinScaleDenominator>25000</MinScaleDenominator>
+      <MaxScaleDenominator>99999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed Bold" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="14">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 178">
+      <Filter>((([place]='city') and ([population]&gt;=5000)) and ([population]&lt;15000))</Filter>
+      <MinScaleDenominator>25000</MinScaleDenominator>
+      <MaxScaleDenominator>99999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed Bold" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="14">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 179">
+      <Filter>((([place]='city') and ([population]&gt;=15000)) and ([population]&lt;35000))</Filter>
+      <MinScaleDenominator>25000</MinScaleDenominator>
+      <MaxScaleDenominator>99999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed Bold" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="14">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 180">
+      <Filter>((([place]='city') and ([population]&gt;=35000)) and ([population]&lt;50000))</Filter>
+      <MinScaleDenominator>25000</MinScaleDenominator>
+      <MaxScaleDenominator>99999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed Bold" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="19">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 181">
+      <Filter>((([place]='city') and ([population]&gt;=50000)) and ([population]&lt;100000))</Filter>
+      <MinScaleDenominator>25000</MinScaleDenominator>
+      <MaxScaleDenominator>99999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed Bold" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="19">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 182">
+      <Filter>(([place]='city') and ([population]&lt;=0))</Filter>
+      <MinScaleDenominator>25000</MinScaleDenominator>
+      <MaxScaleDenominator>99999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed Bold" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="14">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 183">
+      <Filter>(([place]='city') and ([population]&gt;=100000))</Filter>
+      <MinScaleDenominator>25000</MinScaleDenominator>
+      <MaxScaleDenominator>99999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed Bold" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="22">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 184">
+      <Filter>((([place]='town') and ([population]&gt;0)) and ([population]&lt;1000))</Filter>
+      <MinScaleDenominator>25000</MinScaleDenominator>
+      <MaxScaleDenominator>99999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed Bold" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="14">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 185">
+      <Filter>((([place]='town') and ([population]&gt;=1000)) and ([population]&lt;5000))</Filter>
+      <MinScaleDenominator>25000</MinScaleDenominator>
+      <MaxScaleDenominator>99999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed Bold" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="14">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 186">
+      <Filter>((([place]='town') and ([population]&gt;=5000)) and ([population]&lt;15000))</Filter>
+      <MinScaleDenominator>25000</MinScaleDenominator>
+      <MaxScaleDenominator>99999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed Bold" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="14">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 187">
+      <Filter>((([place]='town') and ([population]&gt;=15000)) and ([population]&lt;35000))</Filter>
+      <MinScaleDenominator>25000</MinScaleDenominator>
+      <MaxScaleDenominator>99999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed Bold" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="14">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 188">
+      <Filter>((([place]='town') and ([population]&gt;=35000)) and ([population]&lt;50000))</Filter>
+      <MinScaleDenominator>25000</MinScaleDenominator>
+      <MaxScaleDenominator>99999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed Bold" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="19">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 189">
+      <Filter>((([place]='town') and ([population]&gt;=50000)) and ([population]&lt;100000))</Filter>
+      <MinScaleDenominator>25000</MinScaleDenominator>
+      <MaxScaleDenominator>99999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed Bold" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="19">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 190">
+      <Filter>(([place]='town') and ([population]&lt;=0))</Filter>
+      <MinScaleDenominator>25000</MinScaleDenominator>
+      <MaxScaleDenominator>99999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed Bold" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="14">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 191">
+      <Filter>(([place]='town') and ([population]&gt;=100000))</Filter>
+      <MinScaleDenominator>25000</MinScaleDenominator>
+      <MaxScaleDenominator>99999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed Bold" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="22">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 192">
+      <Filter>(((not (([place]='city')) and not (([place]='town'))) and ([population]&gt;0)) and ([population]&lt;1000))</Filter>
+      <MinScaleDenominator>100000</MinScaleDenominator>
+      <MaxScaleDenominator>399999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="14">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 193">
+      <Filter>(((not (([place]='city')) and not (([place]='town'))) and ([population]&gt;=1000)) and ([population]&lt;5000))</Filter>
+      <MinScaleDenominator>100000</MinScaleDenominator>
+      <MaxScaleDenominator>399999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="14">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 194">
+      <Filter>(((not (([place]='city')) and not (([place]='town'))) and ([population]&gt;=5000)) and ([population]&lt;15000))</Filter>
+      <MinScaleDenominator>100000</MinScaleDenominator>
+      <MaxScaleDenominator>399999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="14">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 195">
+      <Filter>(((not (([place]='city')) and not (([place]='town'))) and ([population]&gt;=15000)) and ([population]&lt;35000))</Filter>
+      <MinScaleDenominator>100000</MinScaleDenominator>
+      <MaxScaleDenominator>399999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="14">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 196">
+      <Filter>(((not (([place]='city')) and not (([place]='town'))) and ([population]&gt;=35000)) and ([population]&lt;50000))</Filter>
+      <MinScaleDenominator>100000</MinScaleDenominator>
+      <MaxScaleDenominator>399999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="16">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 197">
+      <Filter>(((not (([place]='city')) and not (([place]='town'))) and ([population]&gt;=50000)) and ([population]&lt;100000))</Filter>
+      <MinScaleDenominator>100000</MinScaleDenominator>
+      <MaxScaleDenominator>399999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="16">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 198">
+      <Filter>((not (([place]='city')) and not (([place]='town'))) and ([population]&gt;=100000))</Filter>
+      <MinScaleDenominator>100000</MinScaleDenominator>
+      <MaxScaleDenominator>399999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="19">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 199">
+      <Filter>((([place]='city') and ([population]&gt;0)) and ([population]&lt;1000))</Filter>
+      <MinScaleDenominator>100000</MinScaleDenominator>
+      <MaxScaleDenominator>399999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="14">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 200">
+      <Filter>((([place]='city') and ([population]&gt;=1000)) and ([population]&lt;5000))</Filter>
+      <MinScaleDenominator>100000</MinScaleDenominator>
+      <MaxScaleDenominator>399999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="14">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 201">
+      <Filter>((([place]='city') and ([population]&gt;=5000)) and ([population]&lt;15000))</Filter>
+      <MinScaleDenominator>100000</MinScaleDenominator>
+      <MaxScaleDenominator>399999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="14">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 202">
+      <Filter>((([place]='city') and ([population]&gt;=15000)) and ([population]&lt;35000))</Filter>
+      <MinScaleDenominator>100000</MinScaleDenominator>
+      <MaxScaleDenominator>399999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="14">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 203">
+      <Filter>((([place]='city') and ([population]&gt;=35000)) and ([population]&lt;50000))</Filter>
+      <MinScaleDenominator>100000</MinScaleDenominator>
+      <MaxScaleDenominator>399999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="16">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 204">
+      <Filter>((([place]='city') and ([population]&gt;=50000)) and ([population]&lt;100000))</Filter>
+      <MinScaleDenominator>100000</MinScaleDenominator>
+      <MaxScaleDenominator>399999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="16">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 205">
+      <Filter>(([place]='city') and ([population]&lt;=0))</Filter>
+      <MinScaleDenominator>100000</MinScaleDenominator>
+      <MaxScaleDenominator>399999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="14">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 206">
+      <Filter>(([place]='city') and ([population]&gt;=100000))</Filter>
+      <MinScaleDenominator>100000</MinScaleDenominator>
+      <MaxScaleDenominator>399999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="19">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 207">
+      <Filter>((([place]='town') and ([population]&gt;0)) and ([population]&lt;1000))</Filter>
+      <MinScaleDenominator>100000</MinScaleDenominator>
+      <MaxScaleDenominator>399999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="14">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 208">
+      <Filter>((([place]='town') and ([population]&gt;=1000)) and ([population]&lt;5000))</Filter>
+      <MinScaleDenominator>100000</MinScaleDenominator>
+      <MaxScaleDenominator>399999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="14">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 209">
+      <Filter>((([place]='town') and ([population]&gt;=5000)) and ([population]&lt;15000))</Filter>
+      <MinScaleDenominator>100000</MinScaleDenominator>
+      <MaxScaleDenominator>399999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="14">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 210">
+      <Filter>((([place]='town') and ([population]&gt;=15000)) and ([population]&lt;35000))</Filter>
+      <MinScaleDenominator>100000</MinScaleDenominator>
+      <MaxScaleDenominator>399999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="14">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 211">
+      <Filter>((([place]='town') and ([population]&gt;=35000)) and ([population]&lt;50000))</Filter>
+      <MinScaleDenominator>100000</MinScaleDenominator>
+      <MaxScaleDenominator>399999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="16">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 212">
+      <Filter>((([place]='town') and ([population]&gt;=50000)) and ([population]&lt;100000))</Filter>
+      <MinScaleDenominator>100000</MinScaleDenominator>
+      <MaxScaleDenominator>399999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="16">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 213">
+      <Filter>(([place]='town') and ([population]&lt;=0))</Filter>
+      <MinScaleDenominator>100000</MinScaleDenominator>
+      <MaxScaleDenominator>399999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="14">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 214">
+      <Filter>(([place]='town') and ([population]&gt;=100000))</Filter>
+      <MinScaleDenominator>100000</MinScaleDenominator>
+      <MaxScaleDenominator>399999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="19">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 215">
+      <Filter>(((not (([place]='city')) and not (([place]='town'))) and ([population]&gt;=1000)) and ([population]&lt;5000))</Filter>
+      <MinScaleDenominator>400000</MinScaleDenominator>
+      <MaxScaleDenominator>749999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="14">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 216">
+      <Filter>(((not (([place]='city')) and not (([place]='town'))) and ([population]&gt;=5000)) and ([population]&lt;15000))</Filter>
+      <MinScaleDenominator>400000</MinScaleDenominator>
+      <MaxScaleDenominator>749999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="14">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 217">
+      <Filter>(((not (([place]='city')) and not (([place]='town'))) and ([population]&gt;=15000)) and ([population]&lt;35000))</Filter>
+      <MinScaleDenominator>400000</MinScaleDenominator>
+      <MaxScaleDenominator>749999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="14">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 218">
+      <Filter>(((not (([place]='city')) and not (([place]='town'))) and ([population]&gt;=35000)) and ([population]&lt;50000))</Filter>
+      <MinScaleDenominator>400000</MinScaleDenominator>
+      <MaxScaleDenominator>749999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="16">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 219">
+      <Filter>(((not (([place]='city')) and not (([place]='town'))) and ([population]&gt;=50000)) and ([population]&lt;100000))</Filter>
+      <MinScaleDenominator>400000</MinScaleDenominator>
+      <MaxScaleDenominator>749999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="16">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 220">
+      <Filter>((not (([place]='city')) and not (([place]='town'))) and ([population]&gt;=100000))</Filter>
+      <MinScaleDenominator>400000</MinScaleDenominator>
+      <MaxScaleDenominator>749999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="19">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 221">
+      <Filter>((([place]='city') and ([population]&gt;=1000)) and ([population]&lt;5000))</Filter>
+      <MinScaleDenominator>400000</MinScaleDenominator>
+      <MaxScaleDenominator>749999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="14">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 222">
+      <Filter>((([place]='city') and ([population]&gt;=5000)) and ([population]&lt;15000))</Filter>
+      <MinScaleDenominator>400000</MinScaleDenominator>
+      <MaxScaleDenominator>749999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="14">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 223">
+      <Filter>((([place]='city') and ([population]&gt;=15000)) and ([population]&lt;35000))</Filter>
+      <MinScaleDenominator>400000</MinScaleDenominator>
+      <MaxScaleDenominator>749999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="14">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 224">
+      <Filter>((([place]='city') and ([population]&gt;=35000)) and ([population]&lt;50000))</Filter>
+      <MinScaleDenominator>400000</MinScaleDenominator>
+      <MaxScaleDenominator>749999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="16">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 225">
+      <Filter>((([place]='city') and ([population]&gt;=50000)) and ([population]&lt;100000))</Filter>
+      <MinScaleDenominator>400000</MinScaleDenominator>
+      <MaxScaleDenominator>749999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="16">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 226">
+      <Filter>(([place]='city') and ([population]&gt;=100000))</Filter>
+      <MinScaleDenominator>400000</MinScaleDenominator>
+      <MaxScaleDenominator>749999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="19">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 227">
+      <Filter>((([place]='town') and ([population]&gt;=1000)) and ([population]&lt;5000))</Filter>
+      <MinScaleDenominator>400000</MinScaleDenominator>
+      <MaxScaleDenominator>749999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="14">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 228">
+      <Filter>((([place]='town') and ([population]&gt;=5000)) and ([population]&lt;15000))</Filter>
+      <MinScaleDenominator>400000</MinScaleDenominator>
+      <MaxScaleDenominator>749999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="14">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 229">
+      <Filter>((([place]='town') and ([population]&gt;=15000)) and ([population]&lt;35000))</Filter>
+      <MinScaleDenominator>400000</MinScaleDenominator>
+      <MaxScaleDenominator>749999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="14">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 230">
+      <Filter>((([place]='town') and ([population]&gt;=35000)) and ([population]&lt;50000))</Filter>
+      <MinScaleDenominator>400000</MinScaleDenominator>
+      <MaxScaleDenominator>749999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="16">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 231">
+      <Filter>((([place]='town') and ([population]&gt;=50000)) and ([population]&lt;100000))</Filter>
+      <MinScaleDenominator>400000</MinScaleDenominator>
+      <MaxScaleDenominator>749999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="16">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 232">
+      <Filter>(([place]='town') and ([population]&gt;=100000))</Filter>
+      <MinScaleDenominator>400000</MinScaleDenominator>
+      <MaxScaleDenominator>749999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="19">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 233">
+      <Filter>(((not (([place]='city')) and not (([place]='town'))) and ([population]&gt;=5000)) and ([population]&lt;15000))</Filter>
+      <MinScaleDenominator>750000</MinScaleDenominator>
+      <MaxScaleDenominator>1499999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="14">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 234">
+      <Filter>(((not (([place]='city')) and not (([place]='town'))) and ([population]&gt;=15000)) and ([population]&lt;35000))</Filter>
+      <MinScaleDenominator>750000</MinScaleDenominator>
+      <MaxScaleDenominator>1499999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="14">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 235">
+      <Filter>(((not (([place]='city')) and not (([place]='town'))) and ([population]&gt;=35000)) and ([population]&lt;50000))</Filter>
+      <MinScaleDenominator>750000</MinScaleDenominator>
+      <MaxScaleDenominator>1499999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="16">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 236">
+      <Filter>(((not (([place]='city')) and not (([place]='town'))) and ([population]&gt;=50000)) and ([population]&lt;100000))</Filter>
+      <MinScaleDenominator>750000</MinScaleDenominator>
+      <MaxScaleDenominator>1499999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="16">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 237">
+      <Filter>((not (([place]='city')) and not (([place]='town'))) and ([population]&gt;=100000))</Filter>
+      <MinScaleDenominator>750000</MinScaleDenominator>
+      <MaxScaleDenominator>1499999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="19">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 238">
+      <Filter>((([place]='city') and ([population]&gt;=5000)) and ([population]&lt;15000))</Filter>
+      <MinScaleDenominator>750000</MinScaleDenominator>
+      <MaxScaleDenominator>1499999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="14">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 239">
+      <Filter>((([place]='city') and ([population]&gt;=15000)) and ([population]&lt;35000))</Filter>
+      <MinScaleDenominator>750000</MinScaleDenominator>
+      <MaxScaleDenominator>1499999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="14">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 240">
+      <Filter>((([place]='city') and ([population]&gt;=35000)) and ([population]&lt;50000))</Filter>
+      <MinScaleDenominator>750000</MinScaleDenominator>
+      <MaxScaleDenominator>1499999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="16">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 241">
+      <Filter>((([place]='city') and ([population]&gt;=50000)) and ([population]&lt;100000))</Filter>
+      <MinScaleDenominator>750000</MinScaleDenominator>
+      <MaxScaleDenominator>1499999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="16">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 242">
+      <Filter>(([place]='city') and ([population]&gt;=100000))</Filter>
+      <MinScaleDenominator>750000</MinScaleDenominator>
+      <MaxScaleDenominator>1499999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="19">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 243">
+      <Filter>((([place]='town') and ([population]&gt;=5000)) and ([population]&lt;15000))</Filter>
+      <MinScaleDenominator>750000</MinScaleDenominator>
+      <MaxScaleDenominator>1499999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="14">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 244">
+      <Filter>((([place]='town') and ([population]&gt;=15000)) and ([population]&lt;35000))</Filter>
+      <MinScaleDenominator>750000</MinScaleDenominator>
+      <MaxScaleDenominator>1499999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="14">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 245">
+      <Filter>((([place]='town') and ([population]&gt;=35000)) and ([population]&lt;50000))</Filter>
+      <MinScaleDenominator>750000</MinScaleDenominator>
+      <MaxScaleDenominator>1499999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="16">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 246">
+      <Filter>((([place]='town') and ([population]&gt;=50000)) and ([population]&lt;100000))</Filter>
+      <MinScaleDenominator>750000</MinScaleDenominator>
+      <MaxScaleDenominator>1499999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="16">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 247">
+      <Filter>(([place]='town') and ([population]&gt;=100000))</Filter>
+      <MinScaleDenominator>750000</MinScaleDenominator>
+      <MaxScaleDenominator>1499999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="19">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 248">
+      <Filter>(((not (([place]='city')) and not (([place]='town'))) and ([population]&gt;=15000)) and ([population]&lt;35000))</Filter>
+      <MinScaleDenominator>1500000</MinScaleDenominator>
+      <MaxScaleDenominator>2999999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="14">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 249">
+      <Filter>(((not (([place]='city')) and not (([place]='town'))) and ([population]&gt;=35000)) and ([population]&lt;50000))</Filter>
+      <MinScaleDenominator>1500000</MinScaleDenominator>
+      <MaxScaleDenominator>2999999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="16">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 250">
+      <Filter>(((not (([place]='city')) and not (([place]='town'))) and ([population]&gt;=50000)) and ([population]&lt;100000))</Filter>
+      <MinScaleDenominator>1500000</MinScaleDenominator>
+      <MaxScaleDenominator>2999999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="16">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 251">
+      <Filter>((not (([place]='city')) and not (([place]='town'))) and ([population]&gt;=100000))</Filter>
+      <MinScaleDenominator>1500000</MinScaleDenominator>
+      <MaxScaleDenominator>2999999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="19">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 252">
+      <Filter>((([place]='city') and ([population]&gt;=15000)) and ([population]&lt;35000))</Filter>
+      <MinScaleDenominator>1500000</MinScaleDenominator>
+      <MaxScaleDenominator>2999999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="14">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 253">
+      <Filter>((([place]='city') and ([population]&gt;=35000)) and ([population]&lt;50000))</Filter>
+      <MinScaleDenominator>1500000</MinScaleDenominator>
+      <MaxScaleDenominator>2999999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="16">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 254">
+      <Filter>((([place]='city') and ([population]&gt;=50000)) and ([population]&lt;100000))</Filter>
+      <MinScaleDenominator>1500000</MinScaleDenominator>
+      <MaxScaleDenominator>2999999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="16">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 255">
+      <Filter>(([place]='city') and ([population]&gt;=100000))</Filter>
+      <MinScaleDenominator>1500000</MinScaleDenominator>
+      <MaxScaleDenominator>2999999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="19">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 256">
+      <Filter>((([place]='town') and ([population]&gt;=15000)) and ([population]&lt;35000))</Filter>
+      <MinScaleDenominator>1500000</MinScaleDenominator>
+      <MaxScaleDenominator>2999999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="14">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 257">
+      <Filter>((([place]='town') and ([population]&gt;=35000)) and ([population]&lt;50000))</Filter>
+      <MinScaleDenominator>1500000</MinScaleDenominator>
+      <MaxScaleDenominator>2999999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="16">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 258">
+      <Filter>((([place]='town') and ([population]&gt;=50000)) and ([population]&lt;100000))</Filter>
+      <MinScaleDenominator>1500000</MinScaleDenominator>
+      <MaxScaleDenominator>2999999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="16">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 259">
+      <Filter>(([place]='town') and ([population]&gt;=100000))</Filter>
+      <MinScaleDenominator>1500000</MinScaleDenominator>
+      <MaxScaleDenominator>2999999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="19">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 260">
+      <Filter>(((not (([place]='city')) and not (([place]='town'))) and ([population]&gt;=50000)) and ([population]&lt;100000))</Filter>
+      <MinScaleDenominator>3000000</MinScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="16">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 261">
+      <Filter>((not (([place]='city')) and not (([place]='town'))) and ([population]&gt;=100000))</Filter>
+      <MinScaleDenominator>3000000</MinScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="19">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 262">
+      <Filter>((([place]='city') and ([population]&gt;=50000)) and ([population]&lt;100000))</Filter>
+      <MinScaleDenominator>3000000</MinScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="16">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 263">
+      <Filter>(([place]='city') and ([population]&gt;=100000))</Filter>
+      <MinScaleDenominator>3000000</MinScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="19">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 264">
+      <Filter>((([place]='town') and ([population]&gt;=50000)) and ([population]&lt;100000))</Filter>
+      <MinScaleDenominator>3000000</MinScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="16">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 265">
+      <Filter>(([place]='town') and ([population]&gt;=100000))</Filter>
+      <MinScaleDenominator>3000000</MinScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" size="19">name</TextSymbolizer>
+    </Rule>
+  </Style>
+  <Style name="text style 97 (name)">
+    <Rule name="rule 266">
+      <Filter>([highway]='motorway')</Filter>
+      <MaxScaleDenominator>4999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed Bold" fill="rgb(253,246,227)" halo-fill="rgb(211,54,130)" halo-radius="2" max-char-angle-delta="30" placement="line" size="14" spacing="384">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 267">
+      <Filter>([highway]='primary')</Filter>
+      <MaxScaleDenominator>4999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed Bold" fill="rgb(253,246,227)" halo-fill="rgb(101,123,131)" halo-radius="2" max-char-angle-delta="30" placement="line" size="14" spacing="384">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 268">
+      <Filter>([highway]='secondary')</Filter>
+      <MaxScaleDenominator>4999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed Bold" fill="rgb(253,246,227)" halo-fill="rgb(101,123,131)" halo-radius="2" max-char-angle-delta="30" placement="line" size="14" spacing="384">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 269">
+      <Filter>([highway]='trunk')</Filter>
+      <MaxScaleDenominator>4999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed Bold" fill="rgb(253,246,227)" halo-fill="rgb(101,123,131)" halo-radius="2" max-char-angle-delta="30" placement="line" size="14" spacing="384">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 270">
+      <Filter>([highway]='motorway')</Filter>
+      <MinScaleDenominator>5000</MinScaleDenominator>
+      <MaxScaleDenominator>12499</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" max-char-angle-delta="30" placement="line" size="14" spacing="384">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 271">
+      <Filter>([highway]='primary')</Filter>
+      <MinScaleDenominator>5000</MinScaleDenominator>
+      <MaxScaleDenominator>12499</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" max-char-angle-delta="30" placement="line" size="14" spacing="384">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 272">
+      <Filter>([highway]='secondary')</Filter>
+      <MinScaleDenominator>5000</MinScaleDenominator>
+      <MaxScaleDenominator>12499</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" max-char-angle-delta="30" placement="line" size="14" spacing="384">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 273">
+      <Filter>([highway]='trunk')</Filter>
+      <MinScaleDenominator>5000</MinScaleDenominator>
+      <MaxScaleDenominator>12499</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" max-char-angle-delta="30" placement="line" size="14" spacing="384">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 274">
+      <Filter>([highway]='primary')</Filter>
+      <MinScaleDenominator>12500</MinScaleDenominator>
+      <MaxScaleDenominator>49999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" max-char-angle-delta="30" placement="line" size="14" spacing="384">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 275">
+      <Filter>([highway]='secondary')</Filter>
+      <MinScaleDenominator>12500</MinScaleDenominator>
+      <MaxScaleDenominator>49999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" max-char-angle-delta="30" placement="line" size="14" spacing="384">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 276">
+      <Filter>([highway]='trunk')</Filter>
+      <MinScaleDenominator>12500</MinScaleDenominator>
+      <MaxScaleDenominator>49999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" max-char-angle-delta="30" placement="line" size="14" spacing="384">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 277">
+      <Filter>([highway]='primary')</Filter>
+      <MinScaleDenominator>50000</MinScaleDenominator>
+      <MaxScaleDenominator>99999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" max-char-angle-delta="30" placement="line" size="12" spacing="384">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 278">
+      <Filter>([highway]='secondary')</Filter>
+      <MinScaleDenominator>50000</MinScaleDenominator>
+      <MaxScaleDenominator>99999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" max-char-angle-delta="30" placement="line" size="12" spacing="384">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 279">
+      <Filter>([highway]='trunk')</Filter>
+      <MinScaleDenominator>50000</MinScaleDenominator>
+      <MaxScaleDenominator>99999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" max-char-angle-delta="30" placement="line" size="12" spacing="384">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 280">
+      <Filter>([highway]='primary')</Filter>
+      <MinScaleDenominator>100000</MinScaleDenominator>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
+      <TextSymbolizer face-name="DejaVu Sans Condensed" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" max-char-angle-delta="30" placement="line" size="12" spacing="384">name</TextSymbolizer>
+    </Rule>
+    <Rule name="rule 281">
+      <Filter>([highway]='trunk')</Filter>
+      <MinScaleDenominator>100000</MinScaleDenominator>
+      <MaxScaleDenominator>199999</MaxScaleDenominator>
       <TextSymbolizer face-name="DejaVu Sans Condensed" fill="rgb(88,110,117)" halo-fill="rgb(253,246,227)" halo-radius="2" max-char-angle-delta="30" placement="line" size="12" spacing="384">name</TextSymbolizer>
     </Rule>
   </Style>
@@ -1703,6 +2425,7 @@
                  FROM planet_osm_polygon
                  WHERE "natural" IN ('water', 'bay')
                     OR waterway IN ('riverbank')
+                    OR landuse = 'reservoir'
                  ORDER BY z_order ASC, way_area DESC
                 
                 ) AS water</Parameter>
@@ -1811,6 +2534,31 @@
       <Parameter name="port">5432</Parameter>
       <Parameter name="table">
             (
+                SELECT place, name,
+                      (CASE WHEN population ~ E'^[[:digit:]]+$' THEN CAST (population AS INT)
+                            ELSE 0
+                            END) AS population,
+                       name||'('||population||')' AS name_pop,
+                       way
+                FROM planet_osm_point
+                WHERE place IN ('city', 'town', 'village', 'hamlet')
+                ORDER BY population DESC
+            ) AS labels
+            </Parameter>
+      <Parameter name="type">postgis</Parameter>
+      <Parameter name="user">osm</Parameter>
+    </Datasource>
+  </Layer>
+  <Layer name="layer 99" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs +over">
+    <StyleName>text style 97 (name)</StyleName>
+    <Datasource>
+      <Parameter name="dbname">planet_osm</Parameter>
+      <Parameter name="estimate_extent">false</Parameter>
+      <Parameter name="extent">-20037508,-20037508,20037508,20037508</Parameter>
+      <Parameter name="host">localhost</Parameter>
+      <Parameter name="port">5432</Parameter>
+      <Parameter name="table">
+            (
                 SELECT highway, name, way
                 FROM planet_osm_line
                 WHERE highway IN ('motorway', 'trunk', 'primary', 'secondary')
@@ -1820,8 +2568,8 @@
       <Parameter name="user">osm</Parameter>
     </Datasource>
   </Layer>
-  <Layer name="layer 99" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs +over">
-    <StyleName>text style 97 (name)</StyleName>
+  <Layer name="layer 108" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs +over">
+    <StyleName>text style 106 (name)</StyleName>
     <Datasource>
       <Parameter name="dbname">planet_osm</Parameter>
       <Parameter name="estimate_extent">false</Parameter>
