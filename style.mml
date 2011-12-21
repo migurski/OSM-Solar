@@ -114,7 +114,7 @@
             <Parameter name="dbname">&osm_name;</Parameter>
             <Parameter name="estimate_extent">false</Parameter>
             <Parameter name="extent">&epsg900913_extent;</Parameter>
-            <Parameter name="table">(SELECT way FROM planet_osm_polygon WHERE building IS NOT NULL) AS footprints</Parameter>
+            <Parameter name="table">(SELECT way, ST_Area(way) AS area FROM planet_osm_polygon WHERE building IS NOT NULL) AS footprints</Parameter>
         </Datasource>
     </Layer>    
 
@@ -228,6 +228,72 @@
         </Datasource>
     </Layer>
 
+
+    <Layer id="water-labels" class="area-labels" srs="&epsg900913;">
+        <Datasource>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&osm_host;</Parameter>
+            <Parameter name="port">&osm_port;</Parameter>
+            <Parameter name="user">&osm_user;</Parameter>
+            <Parameter name="password">&osm_pass;</Parameter>
+            <Parameter name="dbname">&osm_name;</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
+            <Parameter name="extent">&epsg900913_extent;</Parameter>
+
+            <Parameter name="table"><![CDATA[
+                (SELECT way,
+                        name,
+                        ST_Area(way) / 1000000 AS sq_km
+                 FROM planet_osm_polygon
+                 WHERE "natural" IN ('water', 'bay')
+                    OR waterway IN ('riverbank')
+                 ORDER BY z_order ASC, way_area DESC
+                
+                ) AS water]]></Parameter>
+        </Datasource>
+    </Layer>
+    
+    <Layer id="green-labels" class="area-labels" srs="&epsg900913;">
+        <Datasource>
+            <Parameter name="type">postgis</Parameter>
+            <Parameter name="host">&osm_host;</Parameter>
+            <Parameter name="port">&osm_port;</Parameter>
+            <Parameter name="user">&osm_user;</Parameter>
+            <Parameter name="password">&osm_pass;</Parameter>
+            <Parameter name="dbname">&osm_name;</Parameter>
+            <Parameter name="estimate_extent">false</Parameter>
+            <Parameter name="extent">&epsg900913_extent;</Parameter>
+
+            <Parameter name="table"><![CDATA[
+                (SELECT way,
+                        name,
+                        ST_Area(way) / 1000000 AS sq_km,
+                        (CASE WHEN leisure IN ('park', 'water_park', 'marina',
+                                               'nature_reserve', 'playground',
+                                               'garden', 'common') THEN 'park'
+                              WHEN amenity IN ('graveyard') THEN 'cemetery'
+                              WHEN landuse IN ('cemetery') THEN 'cemetery'
+                              WHEN leisure IN ('sports_centre', 'golf_course',
+                                               'stadium', 'track', 'pitch') THEN 'sport'
+                              WHEN landuse IN ('recreation_ground') THEN 'sport'
+                              WHEN landuse IN ('forest', 'wood') THEN 'forest'
+                         ELSE '' END) AS kind
+                 FROM planet_osm_polygon
+                 WHERE leisure IN ('park', 'water_park', 'marina', 'nature_reserve',
+                                   'playground', 'garden', 'common')
+                    OR amenity IN ('graveyard')
+                    OR landuse IN ('cemetery')
+                    OR leisure IN ('sports_centre', 'golf_course', 'stadium',
+                                   'track', 'pitch')
+                    OR landuse IN ('recreation_ground')
+                    OR landuse IN ('forest', 'wood')
+                 
+                 ORDER BY ST_Area(way) DESC
+                
+                ) AS green]]></Parameter>
+        </Datasource>
+    </Layer>
+    
     <Layer id="major-road-labels" srs="&epsg900913;">
         <Datasource>
             <Parameter name="type">postgis</Parameter>
