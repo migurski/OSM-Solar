@@ -3,8 +3,7 @@ OSM Solar
 
 Solar is a [Mapnik](http://mapnik.org) rendering style for OpenStreetMap designed
 for limited storage applications that require extensive areas of pre-rendered
-maps. It’s designed to work with an OpenStreetMap PostGIS database built using
-[Osm2pgsql](http://wiki.openstreetmap.org/wiki/Osm2pgsql) and default settings.
+maps.
 
 Designed in cooperation with [Aaron Huslage](http://twitter.com/huslage) and
 [Roger Weeks](http://about.me/rogerweeks) of [Tethr](http://www.tethr.org/),
@@ -14,7 +13,9 @@ sampled from [Ethan Schoonover’s Solarized](http://ethanschoonover.com/solariz
 and limit the output to 4-bit color to maximize the compression offered by the
 PNG image format.
 
-To use OSM Solar, use [Cascadenik](https://github.com/mapnik/Cascadenik/wiki)
+To use OSM Solar,  you will need an OpenStreetMap PostGIS database built using
+[Osm2pgsql](http://wiki.openstreetmap.org/wiki/Osm2pgsql) and default settings.
+Use [Cascadenik](https://github.com/mapnik/Cascadenik/wiki)
 to convert the [layer file](https://github.com/migurski/HighRoad/blob/master/style.mml)
 to a Mapnik-compatible `style.xml` file. See the included
 [configuration file](https://github.com/migurski/OSM-Solar/blob/master/tilestache.cfg)
