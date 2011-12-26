@@ -16,7 +16,10 @@ PNG image format.
 
 To use OSM Solar, use [Cascadenik](https://github.com/mapnik/Cascadenik/wiki)
 to convert the [layer file](https://github.com/migurski/HighRoad/blob/master/style.mml)
-to a Mapnik-compatible `style.xml` file.
+to a Mapnik-compatible `style.xml` file. See the included
+[configuration file](https://github.com/migurski/OSM-Solar/blob/master/tilestache.cfg)
+to see how to get [TileStache](http://tilestache.org) to use the included 16 color
+palette file, `solar-light-16.act`.
 
 High Road is made by Michal Migurski, of [Stamen Design](http://stamen.com).
 
