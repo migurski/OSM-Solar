@@ -20,7 +20,7 @@ Use the included `tile-style.xml` Mapnik stylesheet and check the included
 to see how to get [TileStache](http://tilestache.org) to post-process Mapnik’s own
 rendered images with the included 16 color palette file, `solar-light-16.act`.
 
-High Road is made by Michal Migurski, of [Stamen Design](http://stamen.com).
+OSM Solar is made by Michal Migurski, of [Stamen Design](http://stamen.com).
 
 Details
 -------
