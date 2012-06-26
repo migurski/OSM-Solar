@@ -1,0 +1,32 @@
+<Map srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs +over">
+
+    <DataSourcesConfig src="datasources-osm2pgsql.ini"/>
+    <Stylesheet src="stylesheet.mss"/>
+    <Stylesheet src="labels.mss"/>
+
+    <Layer status="on" id="land-city" source_name="land_city" />
+    <Layer status="on" id="land" source_name="land" />
+
+    <Layer id="water-bodies" source_name="water_bodies" />
+
+    <Layer id="processed-coast-shoreline" source_name="processed_coast_shoreline" />
+    <Layer id="water-body-shorelines" source_name="water_body_shorelines" />
+
+    <Layer id="buildings" source_name="buildings" />
+
+    <Layer id="z10-roads" class="roads" source_name="z10_roads" />
+    <Layer id="z11-roads" class="roads" source_name="z11_roads" />
+    <Layer id="z12-roads" class="roads" source_name="z12_roads" />
+    <Layer id="z13-roads" class="roads" source_name="z13_roads" />
+    <Layer id="z14-roads" class="roads" source_name="z14_roads" />
+    <Layer id="z15plus-roads" class="roads" source_name="z15plus_roads" />
+
+    <Layer id="place-labels" source_name="place_labels" />
+
+    <Layer id="water-labels" class="area-labels" source_name="water_labels__area_labels" />
+    <Layer id="green-labels" class="area-labels" source_name="green_labels__area_labels" />
+
+    <Layer id="major-road-labels" source_name="major_road_labels" />
+    <Layer id="minor-road-labels" source_name="minor_road_labels" />
+
+</Map>
