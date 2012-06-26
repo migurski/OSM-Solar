@@ -2,7 +2,7 @@ from re import compile, I
 
 from imposm.mapping import (
     Options, Polygons, LineStrings, PseudoArea, GeneralizedTable, FieldType,
-    meter_to_mapunit, Bool, Direction, String, WayZOrder, Type, Integer
+    meter_to_mapunit, Bool, Direction, String, WayZOrder, Type, Integer, Points
     )
 
 def zoom_threshold(zoom):
@@ -52,32 +52,16 @@ green_areas_z13 = GeneralizedTable(
 
 
 
-# WHERE amenity IN ('school', 'college', 'university', 'bus_station',
-#                   'ferry_terminal', 'hospital', 'kindergarten',
-#                   'place_of_worship', 'public_building', 'townhall')
-#    OR landuse IN ('industrial', 'commercial')
-
-grey_areas = Polygons(
-    name = 'grey_areas',
+places = Points(
+    name = 'places',
+    with_type_field = False,
     fields = (
-        ('area', PseudoArea()),
+        ('population', Integer()),
+        ('place', Type()),
     ),
     mapping = {
-        'amenity': ('school', 'college', 'university', 'bus_station', 'ferry_terminal', 'hospital', 'kindergarten', 'place_of_worship', 'public_building', 'townhall'),
-        'landuse': ('industrial', 'commercial')
+        'place': ('city', 'town', 'village', 'hamlet')
     }
-)
-
-grey_areas_z13 = GeneralizedTable(
-    name = 'grey_areas_z13',
-    tolerance = zoom_threshold(13),
-    origin = grey_areas,
-)
-
-grey_areas_z10 = GeneralizedTable(
-    name = 'grey_areas_z10',
-    tolerance = zoom_threshold(10),
-    origin = grey_areas_z13,
 )
 
 
@@ -279,8 +263,8 @@ class Roads (LineStrings):
     fields = (
         ('name_abbr', NameAbbreviation()),
         ('highway', Type()),
-      # ('tunnel', Bool()),
-      # ('bridge', Bool()),
+        ('tunnel', Bool()),
+        ('bridge', Bool()),
         ('oneway', Direction()),
         ('is_link', Link()),
         ('ref', String()),
