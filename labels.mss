@@ -55,12 +55,14 @@
  * Water and Park labels.
  */
 
-#water-labels name
+#water-labels-med[zoom<14] name,
+#water-labels-high[zoom>=14] name
 {
     text-fill: #268bd2;
 }
 
-#green-labels name
+#green-labels-med[zoom<14] name,
+#green-labels-high[zoom>=14] name
 {
     text-fill: #859900;
 }

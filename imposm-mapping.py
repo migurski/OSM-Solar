@@ -50,12 +50,6 @@ green_areas_z13 = GeneralizedTable(
     origin = green_areas,
 )
 
-green_areas_z10 = GeneralizedTable(
-    name = 'green_areas_z10',
-    tolerance = zoom_threshold(10),
-    origin = green_areas_z13,
-)
-
 
 
 # WHERE amenity IN ('school', 'college', 'university', 'bus_station',
@@ -104,12 +98,6 @@ buildings_z13 = GeneralizedTable(
     name = 'buildings_z13',
     tolerance = zoom_threshold(13),
     origin = buildings,
-)
-
-buildings_z10 = GeneralizedTable(
-    name = 'buildings_z10',
-    tolerance = zoom_threshold(10),
-    origin = buildings_z13,
 )
 
 
@@ -185,7 +173,7 @@ water_areas_z13 = GeneralizedTable(
 water_areas_z10 = GeneralizedTable(
     name = 'water_areas_z10',
     tolerance = zoom_threshold(10),
-    origin = water_areas_z13,
+    origin = water_areas,
 )
 
 

@@ -3,19 +3,23 @@ Map {
 	map-bgcolor: #073642; } 
 
 /*lakes*/
-#water-bodies { 
-	polygon-fill: #073642; }
+#water-bodies-low[zoom<11],
+#water-bodies-med[zoom>=11][zoom<14],
+#water-bodies-high[zoom>=14]
+{ 
+	polygon-fill: #073642;
+}
 
 /*land, map background*/
 #land { 
 	polygon-fill: #fdf6e3; }
 
-#buildings[area>=16000][zoom=12],
-#buildings[area>=8000][zoom=13],
-#buildings[area>=4000][zoom=14],
-#buildings[area>=2000][zoom=15],
-#buildings[area>=1000][zoom=16],
-#buildings[zoom>=17]
+#buildings-med[area>=16000][zoom=12],
+#buildings-med[area>=8000][zoom=13],
+#buildings-high[area>=4000][zoom=14],
+#buildings-high[area>=2000][zoom=15],
+#buildings-high[area>=1000][zoom=16],
+#buildings-high[zoom>=17]
 {
     polygon-fill: #eee8d5;
 }

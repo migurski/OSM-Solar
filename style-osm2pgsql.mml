@@ -7,12 +7,14 @@
     <Layer status="on" id="land-city" source_name="land_city" />
     <Layer status="on" id="land" source_name="land" />
 
-    <Layer id="water-bodies" source_name="water_bodies" />
+    <Layer id="water-bodies-low" source_name="water_bodies_low" />
+    <Layer id="water-bodies-med" source_name="water_bodies_med" />
+    <Layer id="water-bodies-high" source_name="water_bodies_high" />
 
     <Layer id="processed-coast-shoreline" source_name="processed_coast_shoreline" />
-    <Layer id="water-body-shorelines" source_name="water_body_shorelines" />
 
-    <Layer id="buildings" source_name="buildings" />
+    <Layer id="buildings-med" source_name="buildings_med" />
+    <Layer id="buildings-high" source_name="buildings_high" />
 
     <Layer id="z10-roads" class="roads" source_name="z10_roads" />
     <Layer id="z11-roads" class="roads" source_name="z11_roads" />
@@ -23,8 +25,10 @@
 
     <Layer id="place-labels" source_name="place_labels" />
 
-    <Layer id="water-labels" class="area-labels" source_name="water_labels__area_labels" />
-    <Layer id="green-labels" class="area-labels" source_name="green_labels__area_labels" />
+    <Layer id="water-labels-med" class="area-labels" source_name="water_labels_med" />
+    <Layer id="green-labels-med" class="area-labels" source_name="green_labels_med" />
+    <Layer id="water-labels-high" class="area-labels" source_name="water_labels_high" />
+    <Layer id="green-labels-high" class="area-labels" source_name="green_labels_high" />
 
     <Layer id="major-road-labels" source_name="major_road_labels" />
     <Layer id="minor-road-labels" source_name="minor_road_labels" />
