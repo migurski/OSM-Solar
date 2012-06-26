@@ -52,6 +52,8 @@ green_areas_z13 = GeneralizedTable(
 
 
 
+# WHERE place IN ('city', 'town', 'village', 'hamlet')
+
 places = Points(
     name = 'places',
     with_type_field = False,
@@ -82,52 +84,6 @@ buildings_z13 = GeneralizedTable(
     name = 'buildings_z13',
     tolerance = zoom_threshold(13),
     origin = buildings,
-)
-
-
-
-# WHERE aeroway IS NOT NULL
-
-aeroways = LineStrings(
-    name = 'aeroways',
-    mapping = {
-        'aeroway': ('__any__',)
-    }
-)
-
-aeroways_z13 = GeneralizedTable(
-    name = 'aeroways_z13',
-    tolerance = zoom_threshold(13),
-    origin = aeroways,
-)
-
-aeroways_z10 = GeneralizedTable(
-    name = 'aeroways_z10',
-    tolerance = zoom_threshold(10),
-    origin = aeroways_z13,
-)
-
-
-
-# WHERE waterway IS NOT NULL
-
-waterways = LineStrings(
-    name = 'waterways',
-    mapping = {
-        'waterway': ('__any__',)
-    }
-)
-
-waterways_z13 = GeneralizedTable(
-    name = 'waterways_z13',
-    tolerance = zoom_threshold(13),
-    origin = waterways,
-)
-
-waterways_z10 = GeneralizedTable(
-    name = 'waterways_z10',
-    tolerance = zoom_threshold(10),
-    origin = waterways_z13,
 )
 
 
